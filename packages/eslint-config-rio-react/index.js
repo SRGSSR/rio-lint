@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["@srgssr/rio-eslint-config", "plugin:react-hooks/recommended"],
+  extends: ["@srgssr/eslint-config-rio", "plugin:react-hooks/recommended"],
   rules: {
     "react/jsx-props-no-spreading": "off",
     "react/display-name": "off",

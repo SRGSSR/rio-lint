@@ -21,7 +21,7 @@
     "directory": "packages/eslint-config-rio-react"
   },
   "peerDependencies": {
-    "@srgssr/rio-eslint-config": "latest",
+    "@srgssr/eslint-config-rio": "latest",
     "eslint": "^8",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-config-airbnb-typescript": "^16.1.0",
