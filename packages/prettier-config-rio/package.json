@@ -1,6 +1,6 @@
 {
   "name": "@srgssr/prettier-config-rio",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Rio Prettier config",
   "main": "index.js",
   "keywords": [
