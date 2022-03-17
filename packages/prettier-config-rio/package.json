@@ -1,6 +1,6 @@
 {
-  "name": "@srgssr/rio-prettier-config",
-  "version": "1.1.0",
+  "name": "@srgssr/prettier-config-rio",
+  "version": "1.0.0",
   "description": "Rio Prettier config",
   "main": "index.js",
   "keywords": [
@@ -18,10 +18,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/SRGSSR/rio-lint.git",
-    "directory": "packages/prettier-config"
+    "directory": "packages/prettier-config-rio"
   },
   "peerDependencies": {
     "prettier": ">=2.5.1"
-  },
-  "gitHead": "d1b4735061ca795e356bf51c795e9d13226a8240"
+  }
 }

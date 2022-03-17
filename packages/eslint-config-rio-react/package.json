@@ -1,6 +1,6 @@
 {
-  "name": "@srgssr/rio-eslint-config-react",
-  "version": "1.1.0",
+  "name": "@srgssr/eslint-config-rio-react",
+  "version": "1.0.0",
   "description": "Rio ESlint config with react",
   "main": "index.js",
   "keywords": [
@@ -18,7 +18,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/SRGSSR/rio-lint.git",
-    "directory": "packages/eslint-config-react"
+    "directory": "packages/eslint-config-rio-react"
   },
   "peerDependencies": {
     "@srgssr/rio-eslint-config": "latest",
@@ -34,6 +34,5 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.5.1",
     "typescript": ">=4.5.4"
-  },
-  "gitHead": "d1b4735061ca795e356bf51c795e9d13226a8240"
+  }
 }
