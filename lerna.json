@@ -2,12 +2,12 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.0",
+  "version": "1.0.2",
   "useWorkspaces": true,
   "npmClient": "yarn",
   "command": {
     "publish": {
-      "message": "chore(release): publish"
+      "message": "publish: versions update"
     },
     "bootstrap": {
       "npmClientArgs": [

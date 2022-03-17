@@ -1,6 +1,6 @@
 {
   "name": "@srgssr/rio-prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Rio Prettier config",
   "main": "index.js",
   "keywords": [
@@ -22,5 +22,6 @@
   },
   "peerDependencies": {
     "prettier": ">=2.5.1"
-  }
+  },
+  "gitHead": "d1b4735061ca795e356bf51c795e9d13226a8240"
 }

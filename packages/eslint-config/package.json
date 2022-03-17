@@ -1,6 +1,6 @@
 {
   "name": "@srgssr/rio-eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Rio ESlint config",
   "main": "index.js",
   "keywords": [
@@ -31,5 +31,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.1",
     "typescript": ">=4.5.4"
-  }
+  },
+  "gitHead": "d1b4735061ca795e356bf51c795e9d13226a8240"
 }
