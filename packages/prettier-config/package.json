@@ -1,0 +1,26 @@
+{
+  "name": "@srgssr/rio-prettier-config",
+  "version": "1.0.0",
+  "description": "Rio Prettier config",
+  "main": "index.js",
+  "keywords": [
+    "prettier"
+  ],
+  "author": "PlaySuisse Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SRGSSR/rio-lint/issues"
+  },
+  "homepage": "https://github.com/SRGSSR/rio-lint#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SRGSSR/rio-lint.git",
+    "directory": "packages/prettier-config"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.5.1"
+  }
+}

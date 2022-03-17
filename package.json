@@ -1,0 +1,27 @@
+{
+  "name": "rio-lint",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lint configs for rio/playsuisse projects",
+  "main": "index.js",
+  "repository": "git@github.com:SRGSSR/rio-lint.git",
+  "author": "PlaySuisse's Team",
+  "license": "MIT",
+  "homepage": "https://github.com/SRGSSR/rio-lint#readme",
+  "bugs": {
+    "url": "https://github.com/SRGSSR/rio-lint/issues"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "bootstrap": "npx lerna bootstrap -- --ignore-engines",
+    "bootstrap-clean": "rm -rf ./node_modules; npx lerna clean --yes && yarn bootstrap",
+    "release": "lerna version && lerna publish from-package"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
