@@ -21,6 +21,8 @@
     "directory": "packages/eslint-config-rio"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
     "eslint": "^8",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-config-airbnb-typescript": "^16.1.0",
