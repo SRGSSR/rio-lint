@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ["@srgssr/eslint-config-rio", "plugin:react-hooks/recommended"],
+  extends: [
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:react-hooks/recommended",
+    "@srgssr/eslint-config-rio",
+  ],
   rules: {
     "react/jsx-props-no-spreading": "off",
     "react/display-name": "off",

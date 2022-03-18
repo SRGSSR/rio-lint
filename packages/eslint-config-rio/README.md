@@ -1,4 +1,4 @@
-# @srgssr/rio-eslint-config
+# @srgssr/eslint-config-rio
 
 Example usage:
 
@@ -6,7 +6,7 @@ Example usage:
 
 ```
 module.exports = {
-    extends: ['@srgssr/rio-eslint-config'],
+    extends: ['@srgssr/eslint-config-rio'],
     ...
 };
 ```

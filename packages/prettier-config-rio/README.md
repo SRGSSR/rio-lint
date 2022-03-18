@@ -1,4 +1,4 @@
-# @srgssr/rio-prettier-config
+# @srgssr/prettier-config-rio
 
 Example usage:
 
@@ -6,7 +6,7 @@ Example usage:
 
 ```
 module.exports = {
-    ...require("@srgssr/rio-prettier-config"),
+    ...require("@srgssr/prettier-config-rio"),
     ...
 };
 ```

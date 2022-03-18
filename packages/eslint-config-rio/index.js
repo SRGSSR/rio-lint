@@ -2,8 +2,8 @@ module.exports = {
   ignorePatterns: ["dist", "build", "coverage"],
   parser: "@typescript-eslint/parser",
   extends: [
-    "airbnb",
-    "airbnb-typescript",
+    "airbnb/base",
+    "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
   ],
