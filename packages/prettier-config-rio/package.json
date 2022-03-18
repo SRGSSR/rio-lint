@@ -21,6 +21,6 @@
     "directory": "packages/prettier-config-rio"
   },
   "peerDependencies": {
-    "prettier": ">=2.5.1"
+    "prettier": "~2.6.0"
   }
 }
