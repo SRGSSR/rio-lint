@@ -1,9 +1,10 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
   extends: [
+    "@srgssr/eslint-config-rio-js",
     "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended",
-    "@srgssr/eslint-config-rio-js",
+    "plugin:prettier/recommended",
   ],
   rules: {
     "@typescript-eslint/ban-ts-comment": "warn",

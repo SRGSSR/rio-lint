@@ -1,9 +1,6 @@
 module.exports = {
   ignorePatterns: ["dist", "build", "coverage"],
-  extends: [
-    "airbnb/base",
-    "plugin:prettier/recommended",
-  ],
+  extends: ["airbnb/base", "plugin:prettier/recommended"],
   rules: {
     "arrow-body-style": ["error", "as-needed"],
     "import/extensions": "off",
