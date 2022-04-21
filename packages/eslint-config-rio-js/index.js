@@ -1,23 +1,10 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
+  ignorePatterns: ["dist", "build", "coverage"],
   extends: [
-    "airbnb-typescript/base",
-    "plugin:@typescript-eslint/recommended",
-    "@srgssr/eslint-config-rio-js",
+    "airbnb/base",
+    "plugin:prettier/recommended",
   ],
   rules: {
-    "@typescript-eslint/ban-ts-comment": "warn",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        args: "none",
-        ignoreRestSiblings: false,
-        vars: "all",
-      },
-    ],
-    "@typescript-eslint/no-use-before-define": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
     "arrow-body-style": ["error", "as-needed"],
     "import/extensions": "off",
     "import/namespace": "off",
@@ -56,10 +43,6 @@ module.exports = {
     ],
     "consistent-return": "off",
     "max-classes-per-file": "off",
-    "@typescript-eslint/no-unused-expressions": [
-      "error",
-      { allowShortCircuit: true, allowTernary: true },
-    ],
     "prefer-regex-literals": 0,
   },
 };
