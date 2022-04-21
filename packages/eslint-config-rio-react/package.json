@@ -1,6 +1,6 @@
 {
   "name": "@srgssr/eslint-config-rio-react",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Rio ESlint config with react",
   "main": "index.js",
   "keywords": [

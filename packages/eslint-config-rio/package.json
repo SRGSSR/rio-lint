@@ -1,6 +1,6 @@
 {
   "name": "@srgssr/eslint-config-rio",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Rio ESlint config",
   "main": "index.js",
   "keywords": [
